@@ -5,5 +5,5 @@ Practicando
  cofla = 3;
 */
 
-let monto = prompt("Ingrese el monto");
+let monto = prompt("Ingrese el monto :");
 
