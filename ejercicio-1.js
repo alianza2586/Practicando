@@ -6,3 +6,4 @@ Practicando
 */
 
 let monto = prompt("Ingrese el monto");
+
