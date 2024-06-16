@@ -1,5 +1,5 @@
 /* 
-Practicando
+Practicando ejercicios
  roberto = 1.5;
  pedro = 1.7;
  cofla = 3;
