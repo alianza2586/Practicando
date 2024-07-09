@@ -1,3 +1,5 @@
+
+// Uso de Class y arreglos
 class Trabajador{
     constructor(nombre,apellido,edad){
         this.nombre = nombre;
