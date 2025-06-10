@@ -3,10 +3,10 @@ Ejecutar => CONTROL + OPTION + N
 
 De una lista de segundos, conviértelos a minutos redondeando a 2 decimales.
 */
-const segundos = [90, 120, 75];
-// Resultado esperado: [1.5, 2.0, 1.25]
+const datos = ["uno", "dos", "tres", "cuatro", "cinco"];
 
-// agregando en desk
+const resultado = datos.filter((valor, indice, arreglo) => {
+  return valor.length > indice;
+});
 
-let minu = segundos.map(sg => sg / 60);
-console.log(minu);
+console.log(resultado); // ["uno", "tres", "cuatro", "cinco"]
