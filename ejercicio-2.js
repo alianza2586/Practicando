@@ -10,5 +10,5 @@ let minu = segundos.map(sg => sg / 60);
 
 // actualizando en escritorio
 
-//actualizando por 2
+//actualizando por 3
 console.log(minu);
