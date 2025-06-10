@@ -9,4 +9,4 @@ const segundos = [90, 120, 75];
 
 let min = segundos.map(sg => sg / 60);
 console.log(min);
-//iphone 16 pro max
+//iphone 16
