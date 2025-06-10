@@ -3,12 +3,10 @@ Ejecutar => CONTROL + OPTION + N
 
 De una lista de segundos, conviértelos a minutos redondeando a 2 decimales.
 */
-const datos = ["uno", "dos", "tres", "cuatro", "cinco"];
 
-const resultado = datos.filter((valor, indice, arreglo) => {
-  return valor.length > indice;
-});
+const segundos = [90, 120, 75];
+// Resultado esperado: [1.5, 2.0, 1.25]
 
-console.log(resultado); // ["uno", "tres", "cuatro", "cinco"]
-
-// msj github
+let min = segundos.map(sg => sg / 60);
+console.log(min);
+//iphone 16 pro max
