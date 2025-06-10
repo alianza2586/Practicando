@@ -10,3 +10,5 @@ const resultado = datos.filter((valor, indice, arreglo) => {
 });
 
 console.log(resultado); // ["uno", "tres", "cuatro", "cinco"]
+
+// msj github
